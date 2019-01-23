@@ -65,6 +65,10 @@ select {
     font-size: 1.2em;
 }
 
+#helpfulLinkTitle, #helpfulLink {
+    width: 100%;
+}
+
 #recordButton {
     margin: 20px 0px;
     width: 30%;

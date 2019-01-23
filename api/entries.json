@@ -4,36 +4,40 @@
             "date": "01/21/2019",
             "conceptsCovered": "JS API",
             "textEntry": "We learned about fetching data from an API",
-            "links": [
+            "link": [
                 "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-2-the-neophyte/chapters/JSON_SERVER_API.md"
             ],
+            "linkDescription": "Textbook 2 Chapter Building and Using an API",
             "mood": "Happy"
         },
         {
             "date": "01/22/2019",
             "conceptsCovered": "JS Modular Code & Fetch",
             "textEntry": "Figured out how to use .then() with forEach and other functions",
-            "links": [
+            "link": [
                 "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-2-the-neophyte/chapters/FETCH_INTRO.md"
             ],
+            "linkDescription": "Textbook 2 Chapter Fetching Data",
             "mood": "Happy"
         },
         {
             "date": "01/22/2019",
             "conceptsCovered": "CSS Hero Header",
             "textEntry": "Figured out how to use .then() with forEach and other functions",
-            "links": [
+            "link": [
                 "https://medium.com/@woutervanderzee/creating-a-website-hero-module-with-flexbox-and-the-vh-unit-b39113aaceb2"
             ],
+            "linkDescription": "Article: Creating a website hero module",
             "mood": "Happy"
         },
         {
             "date": "01/22/2019",
             "conceptsCovered": "JS removeEventListener",
             "textEntry": "Figured out how to use .then() with forEach and other functions",
-            "links": [
+            "link": [
                 "https://dev.to/em4nl/function-identity-in-javascript-or-how-to-remove-event-listeners-properly-1ll3"
             ],
+            "linkDescription": "Article: Function identity in JavaScript",
             "mood": "Happy"
         },
         {
@@ -43,6 +47,7 @@
             "links": [
                 "https://dev.to/em4nl/function-identity-in-javascript-or-how-to-remove-event-listeners-properly-1ll3"
             ],
+            "linkDescription": "Textbook 2 Chapter Handling Browser Events in JavaScript",
             "mood": "Happy"
         }
     ]
