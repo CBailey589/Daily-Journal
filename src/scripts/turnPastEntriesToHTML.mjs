@@ -1,9 +1,8 @@
 import getPastEntriesFromDatabase from "./getPastEntriesFromDatabase.mjs"
 
 function turnPastEntriesToHTML() {
-    let pastEntryHTMLBlocks = [];
-    let pastEntriesPromise = getPastEntriesFromDatabase();
-    pastEntriesPromise.then((pastEntriesArray) => {
+    return getPastEntriesFromDatabase().then((pastEntriesArray) => {
+        let pastEntryHTMLBlocks = [];
         pastEntriesArray.forEach(entry => {
             pastEntryHTMLBlocks.push(
                 `
