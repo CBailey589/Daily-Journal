@@ -1,3 +1,7 @@
 import API from './APIFunctions.mjs'
 
-API.getJournalEntries
+API.GET()
+
+document.querySelector("#recordButton").addEventListener("click", () => {
+    API.POST()
+})
