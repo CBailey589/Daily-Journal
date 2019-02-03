@@ -7,7 +7,6 @@ function makeNewEntryObject() {
     newEntryObject.link = document.querySelector("#helpfulLink").value
     newEntryObject.linkDescription = document.querySelector("#helpfulLinkTitle").value
     newEntryObject.mood = document.querySelector("#mood").value
-    console.log(newEntryObject)
 
     return newEntryObject
 }
