@@ -35,6 +35,38 @@ function populateJournalForm() {
                 <option value="Angry">Angry</option>
             </select>
         </fieldset>
+
+        <button type="button" onclick="" id="recordButton">Record Journal Entry</button>
+
+        <fieldset id="moodFilter">
+            <h2 id="moodFilterHeader">Filter Past Entries By Mood:
+            </h2>
+            <section id="moodRadioSection">
+                <div id="moodRadio">
+                    <input type="radio" id="Happy" name="moodRadioOption" value="Happy" checked>
+                    <label for="Happy">Happy</label>
+                </div>
+                <div id="moodRadio">
+                    <input type="radio" id="Fine" name="moodRadioOption" value="Fine">
+                    <label for="Fine">Fine</label>
+                </div>
+                <div id="moodRadio">
+                    <input type="radio" id="Confused" name="moodRadioOption" value="Confused">
+                    <label for="Confused">Confused</label>
+                </div>
+                <div id="moodRadio">
+                    <input type="radio" id="Sad" name="moodRadioOption" value="Sad">
+                    <label for="Sad">Sad</label>
+                </div>
+                <div id="moodRadio">
+                    <input type="radio" id="Angry" name="moodRadioOption" value="Angry">
+                    <label for="Angry">Angry</label>
+                </div>
+            </section>
+        </fieldset>
+
+        <section id="pastEntries"></section>
+
     `
 }
 

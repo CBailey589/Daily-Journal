@@ -78,6 +78,26 @@ select {
     font-size: 1.3em;
 }
 
+#moodFilter {
+    border: 1px solid black;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#moodRadioSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#moodRadio {
+    /* border: 1px solid green; */
+    display: flex;
+    width: 19%;
+    justify-content: center;
+}
+
 #pastEntries {
     /* border: 2px dotted red; */
     display: flex;
