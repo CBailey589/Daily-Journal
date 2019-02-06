@@ -17,3 +17,10 @@ document.querySelector("#recordButton").addEventListener("click", () => {
         resetJournalEntryForm()
     }
 })
+
+document.querySelector("#moodRadioSection").addEventListener("click", () => {
+    if (event.target.type === "radio") {
+        clearDisplayedEntriesFromDOM()
+        API.GET()
+    }
+})

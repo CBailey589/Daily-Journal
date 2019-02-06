@@ -43,23 +43,27 @@ function populateJournalForm() {
             </h2>
             <section id="moodRadioSection">
                 <div id="moodRadio">
-                    <input type="radio" id="Happy" name="moodRadioOption" value="Happy" checked>
+                    <input type="radio" id="All" class="radio" name="moodRadioOption" value="All" checked>
+                    <label for="All">All</label>
+                </div>
+                <div id="moodRadio">
+                    <input type="radio" id="Happy" class="radio" name="moodRadioOption" value="Happy">
                     <label for="Happy">Happy</label>
                 </div>
                 <div id="moodRadio">
-                    <input type="radio" id="Fine" name="moodRadioOption" value="Fine">
+                    <input type="radio" id="Fine" class="radio"  name="moodRadioOption" value="Fine">
                     <label for="Fine">Fine</label>
                 </div>
                 <div id="moodRadio">
-                    <input type="radio" id="Confused" name="moodRadioOption" value="Confused">
+                    <input type="radio" id="Confused" class="radio"  name="moodRadioOption" value="Confused">
                     <label for="Confused">Confused</label>
                 </div>
                 <div id="moodRadio">
-                    <input type="radio" id="Sad" name="moodRadioOption" value="Sad">
+                    <input type="radio" id="Sad" class="radio"  name="moodRadioOption" value="Sad">
                     <label for="Sad">Sad</label>
                 </div>
                 <div id="moodRadio">
-                    <input type="radio" id="Angry" name="moodRadioOption" value="Angry">
+                    <input type="radio" id="Angry" class="radio"  name="moodRadioOption" value="Angry">
                     <label for="Angry">Angry</label>
                 </div>
             </section>
