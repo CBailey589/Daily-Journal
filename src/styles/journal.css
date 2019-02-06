@@ -98,6 +98,10 @@ select {
     justify-content: center;
 }
 
+#searchEntries {
+    margin: 0px 0px 20px 0px;
+}
+
 #pastEntries {
     /* border: 2px dotted red; */
     display: flex;

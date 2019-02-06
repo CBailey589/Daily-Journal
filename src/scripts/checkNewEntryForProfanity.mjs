@@ -75,27 +75,6 @@ let profanityRegexArray = [
     "[t\+]w[a@][t\+][s\$]?"
 ]
 
-// function checkNewEntryForProfanity(profanityArray, formObject) {
-//     let a = {
-//         name: "Connor",
-//         lastName: "Bailey",
-//         age: "thirty one"
-//     }
-//     let c = Object.values(a)
-//     let b = ["abcd", "efgh", "ijkL", "mnop"]
-
-//     const combinedStuff = c.map((val) => {
-//         let d = b.map((arrayEl) => {
-//             console.log(arrayEl.concat(val))
-//             return (arrayEl.concat(val))
-//         })
-//         console.log(`d = ${d}`)
-//         return d
-//     })
-
-//     console.log(combinedStuff)
-// }
-
 function checkNewEntryForProfanity() {
     let testScore = Boolean
     const formObject = makeNewEntryObject();

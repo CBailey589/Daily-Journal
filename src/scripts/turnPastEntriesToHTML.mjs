@@ -44,6 +44,7 @@ function turnPastEntriesToHTML() {
                    `)
             })
         }
+        console.log(pastEntryHTMLBlocks[0])
         return pastEntryHTMLBlocks
     })
 }

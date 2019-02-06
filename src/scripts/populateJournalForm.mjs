@@ -1,5 +1,5 @@
 function populateJournalForm() {
-    document.querySelector("#journalEntryForm").innerHTML =`
+    document.querySelector("#journalEntryForm").innerHTML = `
     <fieldset>
             <label for="journalDate">Date of entry</label>
             <input type="date" name="journalDate" id="journalDate">
@@ -67,6 +67,11 @@ function populateJournalForm() {
                     <label for="Angry">Angry</label>
                 </div>
             </section>
+        </fieldset>
+
+        <fieldset id="searchEntries">
+            <label for="searchEntriesInput" class="searchEntriesInput">Search Entries In Mood</label>
+            <input type="text" name="searchEntriesInput" id="searchEntriesInput">
         </fieldset>
 
         <section id="pastEntries"></section>
