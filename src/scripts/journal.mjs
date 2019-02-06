@@ -24,3 +24,4 @@ document.querySelector("#moodRadioSection").addEventListener("click", () => {
         API.GET()
     }
 })
+
