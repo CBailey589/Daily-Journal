@@ -1,12 +1,12 @@
-import turnPastEntriesToHTML from "./turnPastEntriesToHTML.mjs"
+import turnDatabaseEntriesToHTML from "./turnDatabaseEntriesToHTML.mjs"
 
 function putPastEntryHTMLOnDOM() {
-    return turnPastEntriesToHTML().then((pastEntryHTMLBlocks) => {
-        pastEntryHTMLBlocks.forEach(pastEntryHTML => {
-            document.querySelector("#pastEntries").innerHTML += pastEntryHTML;
+    return turnDatabaseEntriesToHTML()
+    .then((entryHTMLBlocks) => {
+        entryHTMLBlocks.forEach(block => {
+            document.querySelector("#pastEntries").innerHTML += block;
         })
     });
 }
-
 
 export default putPastEntryHTMLOnDOM
