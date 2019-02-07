@@ -2,18 +2,13 @@ import filterEntriesBySelectedMood from "./filterEntriesBySelectedMood.mjs"
 
 function filterEntriesBySearchInput() {
     return filterEntriesBySelectedMood()
-    .then((entriesFilteredByMood) => {
-        let entriesFilteredBySearchInput= []
-        entriesFilteredBySearchInput = entriesFilteredByMood
-        return entriesFilteredBySearchInput
-    })
+        .then((entriesFilteredByMood) => {
+            let input = document.querySelector("#searchEntriesInput").value
+            let entriesFilteredBySearchInput = entriesFilteredByMood.filter((object) => {
+                return (object.conceptsCovered.includes(input) || object.textEntry.includes(input))
+            })
+            return entriesFilteredBySearchInput
+        })
 }
 
 export default filterEntriesBySearchInput
-
-
-    // if (document.querySelector("#searchEntriesInput").value !== "") {
-    //     // console.log("IT ISNT EMPTY")
-    //     let titleRegEx = new RegExp(`class="pastEntryTitle">(.*)</h1>`)
-    //     let pastEntrySearchableText = a
-    // }
