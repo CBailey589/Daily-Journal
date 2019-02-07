@@ -85,6 +85,24 @@
       "linkDescription": "GitHub repository for this Daily Journal",
       "mood": "happy",
       "id": 8
+    },
+    {
+      "date": "2019-02-06",
+      "conceptsCovered": "JS Modularization With Promises",
+      "textEntry": "Learned how to use .mjs files, and use return promises between functions in different files. Utilized in this journal as of 6 Feb 2019. ",
+      "link": "GitHub For This Journal",
+      "linkDescription": "https://github.com/CBailey589/Daily-Journal/pull/10",
+      "mood": "Happy",
+      "id": 9
+    },
+    {
+      "date": "2019-02-07",
+      "conceptsCovered": "Browserify",
+      "textEntry": "Learned how to use Browserify and created a GitHub boilerplate Browserify repository to use for future projects. Have to remember to install the node packages after I clone the repo for a new project. ",
+      "link": "https://github.com/CBailey589/Browserify-Boilerplate",
+      "linkDescription": "Boilerplate Browserify Repository",
+      "mood": "Fine",
+      "id": 10
     }
   ]
 }
