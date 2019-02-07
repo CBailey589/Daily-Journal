@@ -25,3 +25,7 @@ document.querySelector("#moodRadioSection").addEventListener("click", () => {
     }
 })
 
+document.querySelector("#searchEntriesInput").addEventListener("keyup", () => {
+    clearDisplayedEntriesFromDOM()
+    API.GET()
+})
