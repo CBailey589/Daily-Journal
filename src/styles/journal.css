@@ -69,7 +69,7 @@ select {
     width: 100%;
 }
 
-#recordButton {
+#submitButton {
     margin: 20px 0px;
     width: 30%;
     background-color: #16375f;
@@ -138,6 +138,21 @@ select {
     font-size: 1.4em;
     margin: 0px 5px 20px 5px;
     height: 50%;
+    overflow-y: scroll
+}
+
+.entryBottomBar {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.entryBottomBar button {
+    background-color: #16375f;
+    color:#f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .dateAndMood {
@@ -146,7 +161,8 @@ select {
     flex-direction: column;
     font-weight: bold;
     margin: 0px 5px 10px 0px;
-    height: 20%;
+    height: 100%;
+    width:33%;
     color: #607c9e;
     align-items: flex-end
 }
