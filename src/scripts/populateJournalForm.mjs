@@ -1,5 +1,6 @@
 function populateJournalForm() {
     document.querySelector("#journalEntryForm").innerHTML = `
+    <input type="hidden" id="entryCurrentlyInForm" value="0">
     <fieldset>
             <label for="journalDate">Date of entry</label>
             <input type="date" name="journalDate" id="journalDate">
@@ -36,7 +37,7 @@ function populateJournalForm() {
             </select>
         </fieldset>
 
-        <button type="button" onclick="" id="recordButton">Record Journal Entry</button>
+        <button type="button" onclick="" id="submitButton">Record Journal Entry</button>
 
         <fieldset id="moodFilter">
             <h2 id="moodFilterHeader">Filter Past Entries By Mood:
